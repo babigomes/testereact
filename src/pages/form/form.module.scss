@@ -1,0 +1,35 @@
+.addItem{
+  display: flex;
+  font-family: Lexend, sans-serif;
+  font-weight: 500;
+
+  input {
+    width: 200px;
+    margin: 0 35px 20px ;
+    height: 35px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    border: 1px solid var(--gray-500);
+    background: transparent;
+    color: var(--gray-800);
+    font-size: 16px;
+ }
+
+ button {
+  width: 6.5rem;
+  height: 2.5rem;
+  background:  var(--blue-400);
+  border: 1px solid var(--blue-400);
+  border-radius: 0.675rem;
+  font-family: Lexend, sans-serif;
+  font-weight: 400;
+  box-shadow: 0.25rem 0.25rem 0.25rem var(--gray-100);
+  color: var(--white);
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.95);
+  }
+}
+}
